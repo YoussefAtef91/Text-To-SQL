@@ -18,6 +18,7 @@ classifiers = [
 dependencies = [
     "accelerate>=1.7.0",
     "datasets>=3.6.0",
+    "dvc>=3.59.2",
     "evaluate>=0.4.3",
     "loguru",
     "mkdocs",
