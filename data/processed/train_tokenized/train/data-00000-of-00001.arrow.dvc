@@ -1,0 +1,5 @@
+outs:
+- md5: 6e79788ab15170d3e583e3365c6bb452
+  size: 197051272
+  hash: md5
+  path: data-00000-of-00001.arrow

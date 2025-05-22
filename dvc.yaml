@@ -1,0 +1,14 @@
+stages:
+  finetune_model:
+    cmd: uv run python src/fine_tuning/finetuning.py
+    deps:
+    - data/tokenized/tokenized_dataset.pkl
+    - src/fine_tuning/finetuning.py
+    outs:
+    - artifacts
+
+  evaluate_model:
+    cmd: uv run python src/fine_tuning/evaluation.py
+    deps:
+    - artifacts
+    - src/fine_tuning/evaluation.py

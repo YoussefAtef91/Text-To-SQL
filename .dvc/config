@@ -1,0 +1,12 @@
+[core]
+    remote = dagshub-s3
+['remote "origin"']
+    url = https://dagshub.com/youssefatef007/Text-To-SQL
+    auth = basic
+    user = youssefatef007
+    password = caeae1d1f090f62e0e294fd0447cb202279efca2
+['remote "dagshub-s3"']
+    url = s3://youssefatef007/Text-To-SQL
+    endpointurl = https://dagshub.com/
+    access_key_id = d6fb2a5b81c0acef4119f8af4077c39e3a665bea
+    secret_access_key = d6fb2a5b81c0acef4119f8af4077c39e3a665bea

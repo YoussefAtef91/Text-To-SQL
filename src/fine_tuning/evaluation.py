@@ -36,6 +36,9 @@ def evaluate():
         if exact_match(pred_sql, true_sql):
             correct += 1
 
+        print(f"Generated Query: {pred_sql}")
+        print(f"True Query: {true_sql}")
+    
     accuracy = correct / total
     print(f"Exact Match Accuracy: {accuracy:.2%}")
 

@@ -1,0 +1,5 @@
+outs:
+- md5: 55f16bc2f4f95f96f759d99c34f351ff
+  size: 247
+  hash: md5
+  path: state.json
